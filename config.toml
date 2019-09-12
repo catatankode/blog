@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 defaultContentLanguage = "id"
-title = "rendiwijiatmoko."
+title = "catatankode."
 theme = "xv"
 # enableGitInfo = true
 pygmentsCodefences  = true
@@ -78,7 +78,7 @@ disableHugoGeneratorInject = false
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
   [params.logo]
-    logoText     = "rendiwijiatmoko."
+    logoText     = "catatankode."
     logoHomeLink = "/"
 
   [[params.social]]
