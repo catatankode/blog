@@ -1,0 +1,18 @@
+{{ define "main" }}
+    <main aria-role="main">
+        <div>
+            <img src="img/ava.jpg" alt="my self" style="border-radius: 50%; margin: 0 auto;" width="128" height="128">
+            <h3>{{ .Site.Author.name }}</h3>
+
+            {{- with .Site.Params.homeSubtitle }}
+                <p>{{.}}</p>
+            {{- end }}
+
+            {{- with .Site.Params.social }}
+                <div>
+                    {{ partial "social-icons.html" . }}
+                </div>
+            {{- end }}
+        </div>
+    </main>
+{{ end }}
