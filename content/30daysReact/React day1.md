@@ -65,7 +65,7 @@ class HelloWorld extends React.Component {
 Pada penulisan tag JavaScript boleh menggunakan tag {} seperti menuliskan *comment*
 
 ```js
-export default class App extends React.Component {
+class HelloWorld extends React.Component {
    render() {
       return (
          <div>
@@ -122,4 +122,4 @@ class HelloWorld extends React.Component {
 }
 ```
 
-Itu adalah sebagian dari pengenalan JSX yang kedepannya kita akan selalu menggunakannya.
+Itu adalah sebagian dari pengenalan React dan JSX di hari pertama.
